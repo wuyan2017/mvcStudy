@@ -11,6 +11,9 @@
     <title>hello</title>
 </head>
 <body>
-hello world
+<form action="/hello" method="post">
+    <input name="username" value="10" type="text"/>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>

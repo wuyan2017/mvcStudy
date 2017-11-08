@@ -15,6 +15,11 @@
         <property name="prefix" value="/WEB-INF/jsp/"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <!-- 自定义转换器的类名 -->
+            <bean class="com.util.DateConverter"></bean>
+        </property>
+    </bean>
     <mvc:annotation-driven />
-    <!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->
 </beans>

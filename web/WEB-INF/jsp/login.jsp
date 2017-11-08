@@ -27,7 +27,7 @@
                 data:"name="+$("#name").val(),
                 type:"GET",
                 dataType: 'json',
-                url:"/login/welcome",
+                url:"/login/port",
                 error:function(data){
                     alert("出错了！！:"+data.msg);
                 },
@@ -40,7 +40,7 @@
     </script>
 </head>
 <body>
-<form action="/login/welcome">
+<form action="/login/port">
     <input type="text" name="name" id="name"/>
     <input type="submit" value="登录" onclick="ajaxTest();"/>
 </form>

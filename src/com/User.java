@@ -1,45 +1,31 @@
 package com;
 
-import java.util.Date;
-
 public class User {
-    private Integer id;
-
-    private String username;
-
-    private String sex;
-
-    private Date birthday;
-    
-	public Integer getId() {
-        return id;
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    private String firstName;
+    private String lastName;
+
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getUsername() {
-        return username;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+    public String getLastName() {
+        return lastName;
     }
 
-    public String getSex() {
-        return sex;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex == null ? null : sex.trim();
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
 }
