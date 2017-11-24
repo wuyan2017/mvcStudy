@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BankWebSystem/BankTest.iml" filepath="$PROJECT_DIR$/../BankWebSystem/BankTest.iml" />
+      <module fileurl="file://E:/Downloads/spring4.x/wangpan/chapter2/chapter2.iml" filepath="E:/Downloads/spring4.x/wangpan/chapter2/chapter2.iml" />
+      <module fileurl="file://E:/Downloads/spring4.x/wangpan/chapter3/chapter3.iml" filepath="E:/Downloads/spring4.x/wangpan/chapter3/chapter3.iml" />
+      <module fileurl="file://E:/Downloads/spring4.x/wangpan/chapter4/chapter4.iml" filepath="E:/Downloads/spring4.x/wangpan/chapter4/chapter4.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvcStudy.iml" filepath="$PROJECT_DIR$/mvcStudy.iml" />
     </modules>
   </component>
